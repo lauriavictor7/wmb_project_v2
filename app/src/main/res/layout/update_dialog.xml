@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+    
+    <ImageView
+        android:id="@+id/imaViewDialog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_add_a_photo_white_24dp"
+        android:layout_marginBottom="16dp"/>
+    
+    <EditText
+        android:id="@+id/editTextNameDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:ems="10"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextNoteDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nota"
+        android:ems="10"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextTypeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tipo"
+        android:ems="10"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonUpdateDialog"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="atualizar"/>
+
+</LinearLayout>
